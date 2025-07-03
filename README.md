@@ -73,7 +73,7 @@ EchoShot
 
 ## 🎬 Usage
 #### Inference
-We give a prompt example in __inference.json__. After adjust the configs in __config_inference.py__, run this code to start sampling:
+We give a prompt example in __inference.json__. After adjusting the configs in __config_inference.py__, run this code to start sampling:
 ```
 bash eval.sh
 ```
