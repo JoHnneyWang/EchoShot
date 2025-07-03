@@ -27,7 +27,7 @@ cfg.T, cfg.H, cfg.W = T, H, W
 cfg.t, cfg.h, cfg.w = t, h, w
 
 # dataset
-cfg.list_file = 'train.json'
+cfg.list_file = './dataset/train.json'
 
 cfg.h, cfg.w = h, w
 cfg.seq_len =  t * h * w
@@ -81,11 +81,11 @@ cfg.p_zero = 0.1
 cfg.t5_model = 'umt5_xxl'
 cfg.t5_dtype = torch.bfloat16
 cfg.text_len = 512
-cfg.t5_checkpoint = 'Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth'
-cfg.t5_tokenizer = 'Wan2.1-T2V-1.3B/google/umt5-xxl/'
+cfg.t5_checkpoint = './models/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth'
+cfg.t5_tokenizer = './models/Wan2.1-T2V-1.3B/google/umt5-xxl/'
 
 # vae
-cfg.vae_checkpoint = 'Wan2.1-T2V-1.3B/Wan2.1_VAE.pth'
+cfg.vae_checkpoint = './models/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth'
 cfg.downsample = (4, 16, 16)
 
 # transformer-1.3B
@@ -99,8 +99,8 @@ cfg.window_size = (-1, -1)
 cfg.qk_norm = True
 cfg.cross_attn_norm = True
 cfg.eps = 1e-6
-cfg.checkpoint_path = 'Wan2.1-T2V-1.3B/wanx_t2v_1B.pth'
-cfg.checkpoint_ema_path = 'Wan2.1-T2V-1.3B/wanx_t2v_1B.pth'
+cfg.checkpoint_path = './models/Wan2.1-T2V-1.3B/wanx_t2v_1B.pth'
+cfg.checkpoint_ema_path = './models/Wan2.1-T2V-1.3B/wanx_t2v_1B.pth'
 
 
 ############################################################
@@ -127,7 +127,7 @@ cfg.log_interval = 10
 cfg.val_interval = 250
 
 # logging path
-cfg.log_dir = 'YOUR_PATH'
+cfg.log_dir = './runs/echoshot'
 cfg.log_file = osp.join(cfg.log_dir, osp.basename(cfg.log_dir) + '.log')
 
 # ----------------- inference ----------------------------
