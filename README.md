@@ -38,7 +38,7 @@ This is the official code of EchoShot, which allows users to generate **multiple
     <img src="assets/teasor.jpg", width="1200">
 </div>
 
-## 🌈 Gallery
+<!-- ## 🌈 Gallery -->
 <!-- <div align="center">
     <img src="assets/teasor.jpg", width="1200">
 </div> -->
