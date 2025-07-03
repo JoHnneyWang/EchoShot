@@ -2,8 +2,7 @@
   <img src="assets/icon.png" height=100>
 </p>
 
-
-# EchoShot: Multi-Shot Portrait Video Generation
+<h1 align='center'>EchoShot: Multi-Shot Portrait Video Generation</h1>
 <p align="center">
     <strong><a href="https://scholar.google.com/citations?hl=en&user=zQnTBEoAAAAJ">Jiahao Wang</a><sup>1</sup></strong>
     ·
