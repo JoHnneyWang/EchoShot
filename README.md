@@ -33,8 +33,69 @@
 
 
 ## 📝 Intro
-This is a promotional page of EchoShot, the official code is available at [D2I-ai](https://github.com/D2I-ai/EchoShot).
+This is a promotional page of EchoShot, the official code is available at [D2I-ai](https://github.com/D2I-ai/EchoShot). Though, you can still refer to the instructions in this repo to fully experience EchoShot.
 
+## ⚙️ Installation
+### Prepare Code
+First, use this code to download codes from [D2I-ai](https://github.com/D2I-ai/EchoShot):
+
+    git clone https://github.com/D2I-ai/EchoShot
+    cd EchoShot
+
+### Construct Environment
+Use this code to install the required packages:
+
+    conda create -n echoshot python=3.10
+    conda activate echoshot
+    pip install -r requirements.txt
+
+### Download Model
+Since EchoShot is based on Wan2.1, you have to first download Wan2.1-T2V-1.3B using:
+
+    pip install "huggingface_hub[cli]"
+    huggingface-cli download Wan-AI/Wan2.1-T2V-1.3B --local-dir .models/Wan2.1-T2V-1.3B
+
+Then download the EchoShot model:
+
+    huggingface-cli download JonneyWang/EchoShot --local-dir ./models/EchoShot
+
+### Organize Files
+We recommend to organize local directories as:
+```angular2html
+EchoShot
+├── ...
+├── dataset
+│   |── video
+|   |   ├── 1.mp4
+|   |   ├── 2.mp4
+|   |   └── ...
+|   └── train.json
+├── models
+│   |── Wan2.1-T2V-1.3B
+│   |   └── ...
+│   └── EchoShot
+|       ├── EchoShot-1.3B-preview.pth
+|       └── ...
+└── ...
+```
+
+## 🎬 Usage
+#### Inference
+For optimal performance, we highly recommend using LLM for prompt extension. We provide a Dashscope API usage for extension:
+- Use the Dashscope API for extension.
+  - Apply for a `dashscope.api_key` in advance ([EN](https://www.alibabacloud.com/help/en/model-studio/getting-started/first-api-call-to-qwen) | [CN](https://help.aliyun.com/zh/model-studio/getting-started/first-api-call-to-qwen)).
+  - Configure the environment variable `DASH_API_KEY` to specify the Dashscope API key. For users of Alibaba Cloud's international site, you also need to set the environment variable `DASH_API_URL` to 'https://dashscope-intl.aliyuncs.com/api/v1'. For more detailed instructions, please refer to the [dashscope document](https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api?spm=a2c63.p38356.0.i1).
+  - Use the `qwen-plus` model for extension.
+
+You can specify the DASH_API_KEY and other important configs in [generate.sh](./generate.sh). Then run this code to start sampling:
+```
+bash generate.sh
+```
+#### Train
+If you want to train your own version of the model, please prepare the dataset, which should include video files and their corresponding JSON files. Here, we provide an example in [dataset/train.json](./dataset/train.json) for reference. All training configurations are stored in [config_train.py](./config_train.py), where you can make specific modifications according to your needs. Once everything is set up, execute the following code to start the training process:
+```
+bash train.sh
+```
 
 ## 🔔 News
 - July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
