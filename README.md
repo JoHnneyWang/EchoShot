@@ -33,7 +33,10 @@
 
 
 ## 📝 Intro
-__This is a promotional page of EchoShot, the official code is available at [D2I-ai](https://github.com/D2I-ai/EchoShot). Though, you can still refer to the instructions in this repo to fully experience EchoShot.__
+__This is the official page of EchoShot, the official code has been released at [D2I-ai](https://github.com/D2I-ai/EchoShot). Though, you can still refer to the instructions in this repo to fully experience EchoShot__, which allows users to generate **multiple video shots showing the same person, controlled by customized prompts**. Currently it supports text-to-multishot portrait video generation. Hope you have fun with this demo!
+<div align="center">
+    <img src="assets/teasor.jpg", width="1200">
+</div>
 
 
 ## 🔔 News
