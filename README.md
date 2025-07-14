@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" height=100>
+  <img src="assets/icon.png" height=75>
 </p>
 
 <h1 align='center'>EchoShot: Multi-Shot Portrait Video Generation</h1>
