@@ -33,7 +33,7 @@
 
 
 ## 📝 Intro
-This is a promotional page of EchoShot, the official code is available at [D2I-ai](https://github.com/D2I-ai/EchoShot). Though, you can still refer to the instructions in this repo to fully experience EchoShot.
+__This is a promotional page of EchoShot, the official code is available at [D2I-ai](https://github.com/D2I-ai/EchoShot). Though, you can still refer to the instructions in this repo to fully experience EchoShot.__
 
 
 ## 🔔 News
