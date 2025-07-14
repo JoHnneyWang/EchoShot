@@ -37,9 +37,9 @@ This is a promotional page of EchoShot, the official code is available at [D2I-a
 
 
 ## 🔔 News
-- [x] July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
-- [x] July 15, 2025: 🎉 __Release official inference and training codes at [D2I-ai](https://github.com/D2I-ai/EchoShot).__
-- [x] May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
+- July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
+- July 15, 2025: 🎉 __Release official inference and training codes at [D2I-ai](https://github.com/D2I-ai/EchoShot).__
+- May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
 
 ## 📖 Citation
 If you are inspired by our work, please cite our paper.
