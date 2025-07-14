@@ -10,7 +10,7 @@
     ·
     <strong><a href="https://scholar.google.com/citations?user=LMVeRVAAAAAJ&hl=en&oi=ao">Sijia Cai</a><sup>2,&dagger;</sup></strong>
     ·
-    <strong><a href="https://gr.xjtu.edu.cn/web/zhangwzh123/">Weizhan Zhang</a><sup>1,*</sup></strong>
+    <strong><a href="https://gr.xjtu.edu.cn/web/zhangwzh123/">Weizhan Zhang</a><sup>1,*</sup></strong><br>
     ·
     <strong><a href="https://gr.xjtu.edu.cn/web/yancaixia">Caixia Yan</a><sup>1</sup></strong>
     ·
