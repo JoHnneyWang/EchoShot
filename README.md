@@ -107,8 +107,8 @@ If you want to train your own version of the model, please prepare the dataset, 
 bash train.sh
 ```
 
-## Acknowledgements
-we would like to express our sincere thank to [Wan Team](https://github.com/Wan-Video) for their support.
+## ✨ Acknowledgements
+We would like to express our sincere thank to [Wan Team](https://github.com/Wan-Video) for their support.
 
 ## 📖 Citation
 If you are inspired by our work, please cite our paper.
