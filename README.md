@@ -29,6 +29,8 @@
         <a href="https://github.com/D2I-ai/EchoShot"><img src='https://img.shields.io/badge/+-Official_Code-green' alt='Official Code'></a>
         <a href="https://huggingface.co/JonneyWang/EchoShot"><img src='https://img.shields.io/badge/+-HuggingFace-yellow'></a>
     <br>
+    <br>
+Please give us a star⭐ on GitHub if you like our work.
 </p>
 
 
