@@ -31,7 +31,7 @@
 </p>
 
 ## 📝 Intro
-This is the official code of EchoShot, which allows users to generate **multiple video shots showing the same person, controlled by customized prompts**. Currently it supports text-to-multishot portrait video generation. Hope you have fun with this demo!
+This is the official code of EchoShot, which allows users to generate **multiple video shots showing the same person, controlled by customized prompts**. Currently it supports text-to-multishot portrait video generation. Another copy of the official code is provided on [D2I-ai](https://github.com/D2I-ai/EchoShot). Hope you have fun with this demo!
 <div align="center">
     <img src="assets/teasor.jpg", width="1200">
 </div>
@@ -43,6 +43,12 @@ This is the official code of EchoShot, which allows users to generate **multiple
 - [x] May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
 
 ## ⚙️ Installation
+### Prepare Code
+First, use this code to download codes:
+
+    git clone https://github.com/JoHnneyWang/EchoShot
+    cd EchoShot
+
 ### Construct Environment
 Use this code to install the required packages:
 
